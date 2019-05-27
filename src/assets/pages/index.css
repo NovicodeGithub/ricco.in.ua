@@ -1,0 +1,179 @@
+@import url(../../plugins/normalize/normalize.css);
+@import url(../pages/global-styles.css);
+@import url(../components/page-header.css);
+@import url(../components/primary-link.css);
+@import url(../components/card.css);
+@import url(../components/page-footer.css);
+
+body {
+    background: #000000;
+    color: #fff;
+}
+
+h1, h3 {
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+h1 {
+    max-width: 560px;
+    margin: 0 auto 40px;
+}
+
+h3 {
+    font-size: 1.2em;
+    max-width: 720px;
+    margin: 0 auto 40px;
+}
+
+.news-shelf {
+    display: block;
+    width: 100%;
+    font-size: 0.583em;
+    text-align: center;
+    padding: 17px 0 18px 0;
+    background-color: #FF9B42;
+}
+
+.news-shelf a {
+    font-size: 1em;
+    color: #fff;
+}
+
+.news-shelf a:hover {
+    color: #d3d3d3;
+}
+
+.content .header-block {
+    position: relative;
+    background: url(../../images/poster_B751-2.jpg) center no-repeat;
+    background-size: 100%;
+    padding: 160px 0 500px;
+    box-shadow: inset 0 15px 15px  -15px #000 , inset 0 -60px 140px -15px #000, inset 0 -15px 15px  -15px #000;
+}
+
+.button-scroll-down {
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    outline: 0;
+    border: none;
+    width: 46px;
+    height: 26px;
+    background: url(../../icons/icon_scroll-down.svg) center no-repeat;
+    background-size: 100%;
+}
+
+.our-features {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.our-features .logo {
+    margin-bottom: 44px;
+}
+
+.our-features .about-us {
+    display: inline-block;
+    font-size: 0.75em;
+    max-width: 680px;
+    font-weight: 300;
+    line-height: 1.333em;
+    color: #666666;
+    margin-bottom: 36px;
+}
+
+.our-features > h3 {
+    margin-bottom: 12px;
+}
+
+.features-list .feature-item {
+    display: inline-block;
+    width: 222px;
+    vertical-align: top;
+    text-align: left;
+    padding: 0 36px;
+}
+
+.features-list .feature-item + .feature-item {
+    border-width: 1px 0 1px 1px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(140, 140, 140, 0.5), rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.feature-item img {
+    margin-bottom: 20px;
+}
+
+.feature-item h4 {
+    font-size: 1em;
+    margin: 0 0 14px;
+    font-weight: 300;
+}
+
+.feature-item .feature-description {
+    font-size: 0.833em;
+    line-height: 1em;
+    color: #A6A6A6;
+    font-weight: 300;
+}
+
+.resting-place {
+    position: relative;
+    background: url(../../images/poster_B751-1.jpg) center no-repeat;
+    background-size: 100%;
+    box-shadow: inset 0px 100px 100px 10px rgba(0,0,0,0.85), inset 0px -100px 100px 10px rgba(0,0,0,0.85);
+    padding: 60px 0 600px;
+}
+
+.poster-article {
+    position: absolute;
+    bottom: 0;
+    right: 32px;
+    color: #fff;
+    font-size: 0.583em;
+    font-weight: 300;
+    opacity: 0.6;
+}
+
+.resting-place h2 {
+    font-weight: 400;
+    width: 340px;
+    margin-bottom: 40px;
+}
+
+.header-wrapper {
+    margin-left: 124px;
+}
+
+.primary-link {
+    display: inline-block;
+    font-size: 1em;
+}
+
+.primary-link::after {
+    display: inline-block;
+    content: url(../../icons/icon_link-icon.svg);
+    width: 12px;
+    vertical-align: baseline;
+    padding-left: 10px;
+}
+
+.best-sofas {
+    padding: 100px 0 240px;
+}
+
+.best-sofas h2 {
+    margin-bottom: 32px;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.best-sofas p {
+    font-size: 1em;
+    color: #A6A6A6;
+    line-height: 1.5em;
+    font-weight: 300;
+    width: 520px;
+    margin-bottom: 46px;
+}

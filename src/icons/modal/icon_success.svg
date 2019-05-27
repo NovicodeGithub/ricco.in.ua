@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>delivery-truck</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M24,47.6307692 C47.814834,47.6307692 48,37.0509135 48,24 C48,10.9490865 47.814834,0.369230769 24,0.369230769 C0.185166005,0.369230769 0,10.9490865 0,24 C0,37.0509135 0.185166005,47.6307692 24,47.6307692 Z" id="path-1"></path>
+        <filter x="-3.1%" y="-3.2%" width="106.2%" height="106.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.198535839 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="prototype" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="order-success" transform="translate(-694.000000, -5645.000000)">
+            <g id="modal" transform="translate(515.000000, 5622.000000)">
+                <g id="form">
+                    <g id="delivery-truck" transform="translate(180.000000, 24.000000)">
+                        <g id="Path">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <polyline id="Path" stroke="#8ADC32" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" points="12 27.1933172 19.7339621 33.9692308 36 14.7692308"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

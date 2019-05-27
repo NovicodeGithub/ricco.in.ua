@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="prototype" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="order-success" transform="translate(-877.000000, -5635.000000)">
+            <g id="modal" transform="translate(515.000000, 5622.000000)">
+                <g id="Group" transform="translate(378.372583, 29.627417) rotate(-45.000000) translate(-378.372583, -29.627417) translate(362.372583, 13.627417)">
+                    <circle id="Oval" stroke="#5C5C5C" stroke-width="2" fill="#333333" cx="16.00339" cy="16.3250743" r="15.6033052"></circle>
+                    <g id="Group-2" transform="translate(4.801017, 5.122701)" stroke="#979797" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3">
+                        <path d="M0.557333901,11.0023306 L21.7901505,11.0023306" id="Path"></path>
+                        <path d="M-7.14379667e-11,11.0023306 L22.0046612,11.0023306" id="Path" transform="translate(11.002331, 11.002331) rotate(-90.000000) translate(-11.002331, -11.002331) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
