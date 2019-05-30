@@ -1,0 +1,66 @@
+.card {
+    width: 204px;
+    height: 352px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    font-size: 1em;
+    line-height: inherit;
+    color: #1b1b1b;
+    background-color: #fff;
+}
+
+.card .sale-badge {
+    --badge-width: 32px;
+    position: absolute;
+    left: calc(-1 * var(--badge-width) / 2);
+    top: 44px;
+    width: var(--badge-width);
+    transform: rotate(-90deg);
+    padding: 10px 12px 6px;
+    text-transform: uppercase;
+    overflow: hidden;
+    color: #fff;
+    font-size: 0.5em;
+    font-weight: 500;
+    line-height: 1em;
+    letter-spacing: 1.5px;
+    background-color: #FF9B42;
+    z-index: 1;
+}
+
+.card .product-image {
+    margin-top: 60px;
+}
+
+.card .product-name a {
+    color: #1b1b1b;
+    max-width: 80%;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.750em;
+    line-height: 0.5em;
+    letter-spacing: 1px;
+}
+
+.card:hover {
+    transform: translateY(4px);
+    transition: all .4s ease-in-out;
+}
+
+.card::after {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 4px;
+    content: "Узнать больше";
+    font-size: 0.667em;
+    font-weight: 400;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+}
+
+.card:hover::after {
+    opacity: 1;
+}
