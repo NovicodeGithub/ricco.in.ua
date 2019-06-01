@@ -1,0 +1,176 @@
+.page-footer {
+    display: block;
+    width: calc(100% - 248px); /* 100% - margin-left - margin-right */
+    margin: 0 auto;
+    font-size: 0.667em;
+    border-top: 1px solid #666666;
+    padding: 28px 0 12px;
+    color: #CCCCCC;
+    height: auto;
+    overflow: auto;
+}
+
+.page-footer .logo {
+    position: absolute;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-info {
+    display: block;
+    width: 100%;
+    text-align: right;
+    margin-bottom: 80px;
+}
+
+.footer-info a {
+    padding: 0.8em 0;
+    margin: -0.8em 0;
+}
+
+.footer-info > div {
+    text-align: left;
+    display: inline-block;
+    max-width: 180px;
+    vertical-align: top;
+}
+
+.footer-info > div + div {
+    margin-left: 3%;
+}
+
+.footer-info h6 {
+    font-size: 1em;
+    color: inherit;
+    margin-bottom: 26px;
+}
+
+.footer-info b {
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+.footer-info .links-list {
+    color: #999999;
+    transition: max-height .5s;
+}
+
+.footer-info .links-list > li {
+    margin-bottom: 16px;
+}
+
+.footer-info .working-hours {
+    text-align: right;
+}
+
+.footer-info .social-links {
+    text-align: right;
+}
+
+.footer-info .contacts b {
+    color: #FDB26F;
+}
+
+.footer-contacts {
+    color: inherit;
+    font-weight: 300;
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #666666;
+    padding-bottom: 12px;
+    margin-bottom: 24px;
+}
+
+.footer-contacts b {
+    color: #FDB26F;
+}
+
+.footer-info a:hover {
+    color: #fff;
+    transition: color 0.12s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.page-footer .copyright {
+    display: block;
+    width: 100%;
+    font-weight: 300;
+    color: #666666;
+}
+
+@media (max-device-width: 1224px) {
+    .page-footer {
+        width: 90%;
+    }
+}
+
+@media (max-device-width: 1024px) {
+    .page-footer {
+        width: 100%;
+    }
+}
+
+
+
+/* Responsive Mobile Sizes */
+@media only screen and (max-width: 766px) {
+    .page-footer {
+        border-top: 0;
+    }
+
+    .page-footer .logo {
+        display: none;
+    }
+
+    .page-footer .footer-navigation {
+        width: 100%;
+    }
+
+    .footer-navigation .footer-links-holder {
+        width: 100%;
+        position: relative;
+        max-width: 100%;
+        border-top: 1px solid #222222;
+        border-bottom: 1px solid #222222;
+        display: block;
+        text-align: left;
+    }
+
+    .footer-info > div + div {
+        margin-left: 0;
+    }
+
+    .footer-links-holder h6 {
+        margin: 0;
+        padding: 15px 10px;
+    }
+
+    .footer-links-holder::after {
+        content: "";
+        position: absolute;
+        right: 10px;
+        top: 20px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 7px;
+        width: 5px;
+        height: 5px;
+        border-top: 1.5px solid #fff;
+        border-right: 1.5px solid #fff;
+        transform: rotate(135deg);
+        transition: transform .3s;
+    }
+
+    .footer-links-holder .links-list {
+        max-height: 0;
+        overflow: hidden;
+        padding: 0 20px;
+    }
+
+    .footer-links-holder.active::after {
+        transform: rotate(-45deg);
+    }
+
+    .footer-links-holder.active .links-list {
+        max-height: 10000px;
+    }
+}

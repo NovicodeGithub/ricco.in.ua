@@ -34,13 +34,22 @@
 }
 
 .card .product-name a {
+    display: block;
+    margin: 0 auto;
     color: #1b1b1b;
     max-width: 80%;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 0.750em;
-    line-height: 0.5em;
+    line-height: 1.2em;
     letter-spacing: 1px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    max-height: 2.4em;
 }
 
 .card:hover {
@@ -49,18 +58,37 @@
 }
 
 .card::after {
+    content: "Узнать больше";
     display: block;
     position: absolute;
+    opacity: 0;
     left: 0;
     right: 0;
     bottom: 4px;
-    content: "Узнать больше";
     font-size: 0.667em;
     font-weight: 400;
+    transition: all .3s ease-in-out;
+}
+
+.card::before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
     opacity: 0;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #3E3F43;
     transition: all .3s ease-in-out;
 }
 
 .card:hover::after {
+    opacity: 1;
+}
+
+.card:hover::before {
     opacity: 1;
 }

@@ -4,6 +4,13 @@ body {
     font-family: 'Futura', Arial, Helvetica, sans-serif;
     font-weight: 400;
     letter-spacing: 0px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.page-wrapper {
+    flex: 1;
 }
 
 h1 {
@@ -26,32 +33,38 @@ h3 {
     letter-spacing: -0.5px;
 }
 
+
 h4 {
     font-size: 1em; /* 24px */
     font-weight: 400;
     letter-spacing: -0.5px;
 }
 
-h4 {
+h5 {
     font-size: 0.75em; /* 18px */
     font-weight: 500;
     letter-spacing: -0.5px;
 }
 
-a {
-    font-size: 0.667em;
+h6 {
+    color: #CCCCCC;
+    font-size: 0.667em; /* 16px */
     font-weight: 400;
-    text-decoration: none;
-    color: #FF9B42;
+    letter-spacing: -0.5px;
 }
 
-a:hover {
-    color: #a6a6a6;
-    transition: color 0.12s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
 }
 
 ul {
     list-style: none;
     padding-inline-start: 0px;
     margin: 0;
+}
+
+b,strong {
+    font-weight: bolder;
 }

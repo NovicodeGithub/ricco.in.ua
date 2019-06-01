@@ -1,10 +1,12 @@
 @import url(../../plugins/normalize/normalize.css);
-@import url(../pages/global-styles.css);
+@import url(../global-styles.css);
 @import url(../components/page-header.css);
 @import url(../components/primary-link.css);
 @import url(../components/card.css);
+@import url(../components/page-footnotes.css);
 @import url(../components/page-footer.css);
 @import url(../../plugins/slider/slider.min.css);
+
 
 body {
     background: #000000;
@@ -52,6 +54,7 @@ h1 {
 .header-block h3 {
     font-size: 0.833em;
     max-width: 600px;
+    letter-spacing: .1px;
     margin: 0 auto 40px;
 }
 
@@ -146,27 +149,14 @@ h1 {
 }
 
 .header-wrapper {
+    width: 34%;
     margin-left: 124px;
     display: inline-block;
     vertical-align: top;
 }
 
-.primary-link {
-    display: inline-block;
-    font-size: 1em;
-    vertical-align: middle;
-}
-
-.primary-link::after {
-    display: inline-block;
-    content: url(../../icons/icon_link-icon.svg);
-    width: 12px;
-    vertical-align: middle;
-    padding-left: 10px;
-}
-
 .best-sofas {
-    padding: 100px 0 240px;
+    padding: 100px 0 160px;
 }
 
 .best-sofas h2 {
@@ -188,8 +178,8 @@ h1 {
 .best-sofas .swiper-container {
     width: 700px;
     height: 100%;
-    display: inline-block;
-    vertical-align: top;
+    display: block;
+    float: right;
     margin-left: 40px;
 }
 
@@ -205,4 +195,38 @@ h1 {
 .swiper-pagination-wrapper svg:hover * {
     stroke: #FF9B42;
     transition: all .4s ease-in-out;
+}
+
+@media (max-device-width: 1322px) {
+    .best-sofas .swiper-container {
+        width: 440px;
+    }
+    .header-wrapper {
+        width: 39%;
+    }
+}
+
+@media (max-device-width: 1024px) {
+    .content {
+        padding: 0 32px;
+    }
+
+    .header-wrapper {
+        margin-left: 0;
+    }
+}
+
+@media (max-device-width: 766px) {
+    h1 {
+        font-size: 1.667em; /* 40px */
+    }
+
+    h2 {
+        font-size: 1em; /* 24px */
+        line-height: 1.4em;
+    }
+
+    h3 {
+        font-size: 0.667em; /* 16px */
+    }
 }

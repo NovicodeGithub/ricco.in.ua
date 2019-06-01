@@ -1,0 +1,21 @@
+.primary-link {
+    display: inline-block;
+    font-size: 1em;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #FF9B42;
+}
+
+.primary-link:hover {
+    color: #a6a6a6;
+    transition: color 0.12s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.primary-link .primary-link-arrow {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.primary-link:hover .primary-link-arrow {
+    transition: color 0.12s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}

@@ -1,0 +1,25 @@
+.footnotes {
+    display: block;
+    width: calc(100% - 248px); /* 100% - margin-left - margin-right */
+    margin: 0 auto;
+    font-weight: 300;
+    font-size: 0.667em;
+    color: #666666;
+}
+
+.footnotes li {
+    margin-bottom: 12px;
+}
+
+@media (max-device-width: 1224px) {
+    .footnotes {
+        width: 90%;
+    }
+}
+
+
+@media (max-device-width: 1024px) {
+    .footnotes {
+        width: 100%;
+    }
+}

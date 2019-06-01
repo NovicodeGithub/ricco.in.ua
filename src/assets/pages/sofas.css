@@ -1,0 +1,34 @@
+@import url(../../plugins/normalize/normalize.css);
+@import url(../global-styles.css);
+@import url(../components/page-header.css);
+@import url(../components/primary-link.css);
+@import url(../components/primary-button.css);
+@import url(../components/card.css);
+@import url(../components/page-footer.css);
+
+
+body {
+    background: #1d1d1d;
+    color: #fff;
+    cursor: default;
+}
+
+.content .header-block {
+    padding: 60px 0 500px;
+}
+
+h1, h3 {
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+h1 {
+    margin: 0 auto 24px;
+    max-width: 560px;
+}
+
+h3 {
+    margin: 0 auto 64px;
+    max-width: 720px;
+    color: #CCCCCC;
+}
