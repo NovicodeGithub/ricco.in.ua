@@ -13,13 +13,6 @@
 
 @media (max-device-width: 1224px) {
     .footnotes {
-        width: 90%;
-    }
-}
-
-
-@media (max-device-width: 1024px) {
-    .footnotes {
         width: 100%;
     }
 }

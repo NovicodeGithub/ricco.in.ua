@@ -1,4 +1,4 @@
-.card {
+.product-card {
     width: 204px;
     height: 352px;
     position: relative;
@@ -10,7 +10,7 @@
     background-color: #fff;
 }
 
-.card .sale-badge {
+.product-card .sale-badge {
     --badge-width: 32px;
     position: absolute;
     left: calc(-1 * var(--badge-width) / 2);
@@ -29,11 +29,11 @@
     z-index: 1;
 }
 
-.card .product-image {
+.product-card .product-image {
     margin-top: 60px;
 }
 
-.card .product-name a {
+.product-card .product-name a {
     display: block;
     margin: 0 auto;
     color: #1b1b1b;
@@ -52,12 +52,12 @@
     max-height: 2.4em;
 }
 
-.card:hover {
+.product-card:hover {
     transform: translateY(4px);
     transition: all .4s ease-in-out;
 }
 
-.card::after {
+.product-card::after {
     content: "Узнать больше";
     display: block;
     position: absolute;
@@ -70,7 +70,7 @@
     transition: all .3s ease-in-out;
 }
 
-.card::before {
+.product-card::before {
     content: "";
     display: block;
     width: 100px;
@@ -85,10 +85,10 @@
     transition: all .3s ease-in-out;
 }
 
-.card:hover::after {
+.product-card:hover::after {
     opacity: 1;
 }
 
-.card:hover::before {
+.product-card:hover::before {
     opacity: 1;
 }

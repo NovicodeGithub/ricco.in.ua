@@ -13,14 +13,15 @@
     <link rel="stylesheet" href="typography/typorgaphy.css">
     <link rel="stylesheet" href="assets/pages/index.css">
     <script
-  src="https://code.jquery.com/jquery-2.2.4.min.js"
-  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous"></script>
+        src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous">
+    </script>
 </head>
 <body>
     <div class="page-wrapper">
         <header class="page-header">
-            <nav class="mainmenu" role="navigation">
+            <nav class="mainmenu" id="menu-responsive" role="navigation">
                 <a class="logo" href="index.html">
                     <img src="images/logo-white.svg" alt="Ricco логотип" width="113" height="44">
                 </a>
@@ -29,32 +30,40 @@
                     <li class="menu-item">
                         <a href="#">Главная</a>
                     </li>
+
                     <li class="menu-item">
                         <a href="sofas.html">Диваны</a>
                     </li>
+
                     <li class="menu-item">
-                        <a href="#">Контакты</a>
+                        <a href="#anchor-contacts">Контакты</a>
                     </li>
+
+                    <div role="button" id="main-nav-toggle" aria-label="Меню" hidden>
+                        Меню
+                        <span class="dropdown-icon"></span>
+                    </div>
                 </ul>
+
             </nav>
         </header>
 
-        <aside class="news-shelf">
+        <aside class="news-shelf content-wrapper">
             Скидка 5% на всю коллекцию Leather Editions до 30.05.2019. <a href="collection.html">Узнать больше &#8250;</a>
         </aside>
 
         <main class="content">
             <div class="header-block">
-                <h1>Качественная итальянская мебель</h1>
-                <h3>С диванами от Ricco Вы сможете не просто моделировать дизайн своего интерье­ра, но и достигнуть наивысшего уровня личного комфорта.</h3>
+                <h1 class="content-wrapper">Качественная итальянская мебель</h1>
+                <h3 class="content-wrapper">С диванами от Ricco Вы сможете не просто моделировать дизайн своего интерье­ра, но и достигнуть наивысшего уровня личного комфорта.</h3>
 
-                <button type="button" class="button-scroll-down" aria-label="Перейти ниже"></button>
+                <a href="#anchor-main-content" class="button-scroll-down" aria-label="Перейти ниже"></a>
                 <a class="poster-article" href="#">
                     *диван B751, Leather Editions 2014
                 </a>
             </div>
 
-            <section class="our-features">
+            <section class="our-features content-wrapper" id="anchor-main-content">
                 <img src="images/logo-white.svg" class="logo" alt="Ricco логотип" width="262" height="100">
                 <h3>Мы с Вами уже более 10 лет!</h3>
 
@@ -95,7 +104,7 @@
                 </ul>
             </section>
 
-            <section class="resting-place">
+            <section class="resting-place content-wrapper">
                 <div class="header-wrapper">
                     <h2>Каждая комната вашего дома может стать местом для отдыха.</h2>
                     <a href="#" class="primary-link">Смотреть все диваны
@@ -114,7 +123,7 @@
                 </a>
             </section>
 
-            <section class="best-sofas">
+            <section class="best-sofas content-wrapper">
                 <article class="header-wrapper">
                     <h2>Мастерство в каждой детали.</h2>
                     <p>Ricco предлагает бога­тейший выбор мебели итальянского дизайна, полностью отвечающей вашим потребностям и понятиям о стиле. Современные и привлекательные диваны, кресла и диван­кровати доступны в бесконечном множестве модных цве­товых решений и их комбинаций*.</p>
@@ -134,7 +143,7 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <a href="#">
-                            <div class="card">
+                            <div class="product-card">
                                 <span class="sale-badge">Sale</span>
                                 <img src="sofas/moroni/main.jpg" class="product-image" alt="Диван Moroni" width="312" height="auto">
                                 <span class="product-name">Moroni</span>
@@ -144,7 +153,7 @@
 
                         <div class="swiper-slide">
                             <a href="#">
-                            <div class="card">
+                            <div class="product-card">
                                 <span class="sale-badge">Sale</span>
                                 <img src="sofas/moroni/main.jpg" class="product-image" alt="Диван Moroni" width="312" height="auto">
                                 <span class="product-name">Moroni</span>
@@ -152,10 +161,10 @@
                             </a>
                         </div>
 
-
                         <div class="swiper-slide">
                             <a href="#">
-                            <div class="card">
+                            <div class="product-card">
+                                <span class="sale-badge">Sale</span>
                                 <img src="sofas/moroni/main.jpg" class="product-image" alt="Диван Moroni" width="312" height="auto">
                                 <span class="product-name">Moroni</span>
                             </div>
@@ -164,7 +173,26 @@
 
                         <div class="swiper-slide">
                             <a href="#">
-                            <div class="card">
+                            <div class="product-card">
+                                <span class="sale-badge">Sale</span>
+                                <img src="sofas/moroni/main.jpg" class="product-image" alt="Диван Moroni" width="312" height="auto">
+                                <span class="product-name">Moroni</span>
+                            </div>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <a href="#">
+                            <div class="product-card">
+                                <img src="sofas/moroni/main.jpg" class="product-image" alt="Диван Moroni" width="312" height="auto">
+                                <span class="product-name">Moroni</span>
+                            </div>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <a href="#">
+                            <div class="product-card">
                                 <span class="sale-badge">Sale</span>
                                 <img src="sofas/moroni/main.jpg" class="product-image" alt="Диван Moroni" width="312" height="auto">
                                 <span class="product-name">Moroni</span>
@@ -208,7 +236,7 @@
                 </div>
             </section>
 
-            <div class="footnotes" aria-label="Уточняющая информация" role="note">
+            <div class="footnotes content-wrapper" aria-label="Уточняющая информация" role="note">
                 <ul class="notes-list">
                     <li class="note">
                         * Некоторые из моделей мебели могут быть сделаны под желания клиента. К таким опциям относятся: размеры, обивка, цвет
@@ -216,12 +244,12 @@
                 </ul>
             </div>
 
-            <footer class="page-footer" role="contentinfo">
+            <footer class="page-footer" id="anchor-contacts" role="contentinfo">
                 <a class="logo" href="index.html">
-                    <img src="images/logo-white.svg" alt="Ricco логотип" width="200" height="auto">
+                    <img src="images/logo-white.svg" alt="Ricco логотип" width="180" height="auto">
                 </a>
 
-                <div class="footer-info centered footer-navigation">
+                <div class="footer-info footer-navigation">
                     <div class="footer-links-holder footer-nav">
                         <h6>Ricco</h6>
                         <ul class="links-list">
@@ -263,15 +291,10 @@
         </main>
     </div>
 
-
+    <script src="plugins/responsive-nav/responsive-nav.js"></script>
     <script src="plugins/slider/slider.min.js"></script>
     <script src="plugins/slider/slider.js"></script>
-    <script>
-        $(function() {
-            $('.footer-links-holder h6').click(function () {
-                $(this).parent().toggleClass('active');
-            });
-        });
-    </script>
+    <script src="plugins/smooth-scrolling/smooth-scrolling.js"></script>
+    <script src="plugins/responsive-footer/responsive-footer.js"></script>
 </body>
 </html>
