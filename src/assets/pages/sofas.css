@@ -1,11 +1,11 @@
 @import url(../../plugins/normalize/normalize.css);
 @import url(../global-styles.css);
 @import url(../components/page-header.css);
-@import url(../components/primary-link.css);
 @import url(../components/primary-button.css);
 @import url(../components/card.css);
 @import url(../components/page-footer.css);
-
+@import url(../components/form.css);
+@import url(../components/tabs.css);
 
 body {
     background: #1d1d1d;
@@ -14,7 +14,7 @@ body {
 }
 
 .content .header-block {
-    padding: 60px 0 500px;
+    padding: 60px 0 64px;
 }
 
 h1, h3 {
@@ -28,7 +28,216 @@ h1 {
 }
 
 h3 {
-    margin: 0 auto 64px;
+    margin: 0 auto;
     max-width: 720px;
     color: #CCCCCC;
+}
+
+.tab-content {
+    padding: 100px 0;
+}
+
+.header-wrapper {
+    max-width: 914px;
+    display: block;
+    margin: 0 auto 100px;
+}
+
+.tab-content h2 {
+    max-width: 440px;
+    margin-bottom: 40px;
+}
+
+.tab-content p {
+    max-width: 592px;
+    color: #454545;
+    font-size: 0.750em;
+    line-height: 1.5em;
+}
+
+.products-list {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 914px;
+}
+
+.products-list .product-card {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 60px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 20px 40px rgba(0, 0, 0, 0.05);
+}
+
+.contact-form {
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+    padding-top: 100px;
+}
+
+.contact-form h4 {
+    margin-bottom: 8px;
+}
+
+.contact-form h5 {
+    color: #999999;
+    margin-bottom: 28px;
+}
+
+.contact-form .input-field {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.submit-button {
+    background-image: url(../../icons/icon_button-arrow.svg);
+    background-position: calc(100% - 20px) 50%;
+    background-repeat: no-repeat;
+    padding-right: 48px;
+}
+
+
+@media (max-device-width: 1024px) {
+    .tab-content {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .header-wrapper {
+        margin-left: 0;
+    }
+}
+
+
+@media (max-device-width: 766px) {
+    h1 {
+        font-size: 1.667em; /* 40px */
+        max-width: 400px;
+    }
+
+    h2 {
+        font-size: 1.334em; /* 36px */
+        line-height: 1.2em;
+    }
+
+    .best-sofas h2 {
+        font-size: 1.334em;
+        line-height: 1.2em;
+    }
+
+    h3 {
+        font-size: 0.833em;
+        line-height: 1.375em;
+        max-width: 380px;
+        letter-spacing: 0;
+    }
+
+    .mainmenu .menu-item {
+        line-height: 2em;
+    }
+
+    .tabs .tab-link {
+        margin: 0;
+    }
+}
+
+@media (max-device-width: 518px) {
+    .products-list .product-card {
+        margin-right: 14px;
+        width: 180px;
+        height: 320px;
+    }
+
+    .product-card .product-image {
+        width: 280px;
+        margin-top: 80px;
+    }
+
+    .product-card::after {
+        display: none;
+    }
+
+    .product-card:hover {
+        transform: translateY(8px);
+    }
+
+    .contact-form {
+        width: 100%;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .contact-form h4 {
+        font-size: 1.125em;
+    }
+
+    .contact-form h5 {
+        font-size: 0.875em;
+    }
+
+    .contact-form .input-field {
+        width: 100%;
+    }
+
+    .contact-form .submit-button {
+        width: 100%;
+        background-image: none;
+        font-size: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-device-width: 480px) {
+    .content .header-block {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .products-list .product-card {
+        width: 100%;
+    }
+
+    .product-card .product-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tabs .tab-link img {
+        width: 72px;
+    }
+}
+
+@media (max-device-width: 420px) {
+    .products-list .product-card {
+        margin-right: 0;
+    }
+
+    .header-block h3 {
+        max-width: 300px;
+    }
+}
+
+@media (max-device-width: 390px) {
+    .tab-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .products-list .product-card {
+        width: 100%;
+    }
+
+    .content .header-block {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
 }

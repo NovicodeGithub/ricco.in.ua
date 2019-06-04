@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="102px" viewBox="0 0 1440 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>bg</title>
+    <desc>Created with Sketch.</desc>
+    <g id="prototype" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4" transform="translate(0.000000, -464.000000)">
+            <g id="bg" transform="translate(0.000000, 463.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="38" width="1440" height="64"></rect>
+                <path d="M1440,102.004991 C1249.03607,62.2014727 996.89912,38 720.5,38 C443.618147,38 191.083283,62.2860826 8.52651283e-14,102.213686 L0,1 L1440,1 L1440,102.004991 Z" fill="#1D1D1D"></path>
+                <path d="M773.825797,40.5665227 C785.700312,39.8454579 796.233825,35.3152746 805.426336,26.9759728 C814.618847,18.6366709 820.429239,10.2314303 822.857512,1.7602511 C825.803482,11.5371098 831.251394,19.9423503 839.201246,26.9759728 C847.151099,34.0095952 857.359282,37.9206508 869.825797,38.7091396 C848.724309,46.4995053 832.768845,50.5127057 821.959407,50.7487406 C811.149968,50.9847755 795.105432,47.5907029 773.825797,40.5665227 Z" id="Path-6" fill="#FFFFFF" transform="translate(821.825797, 26.260251) rotate(2.000000) translate(-821.825797, -26.260251) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

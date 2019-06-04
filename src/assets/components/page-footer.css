@@ -134,6 +134,7 @@
 
     .footer-info .links-list > li {
         margin-bottom: 12px;
+        line-height: 2em;
     }
 
     .footer-info .links-list > li:first-child {
