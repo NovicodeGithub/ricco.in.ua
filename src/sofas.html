@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Диваны - Ricco</title>
+    <title>Коллекция диванов - Ricco</title>
+	<meta name="description" content="Итальянская мебель. Купить  итальянскую качественную мебель в Ricco">
+    <meta name="keywords" content="мебель, диваны, Италия, диван, итальянская, диван, качество, комфорт, Киев, Украина">
 
     <link rel="icon" href="images/icons/favicon.png" type="image/png" />
     <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon" />
 
     <link rel="stylesheet" href="typography/typorgaphy.css">
     <link rel="stylesheet" href="assets/pages/sofas.css">
+    <link rel="stylesheet" href="plugins/animate/animate.css">
+
     <script
         src="https://code.jquery.com/jquery-2.2.4.min.js"
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
@@ -49,12 +53,12 @@
         </header>
 
         <main class="content">
-            <div class="header-block">
+            <div class="header-block wow fadeIn" data-wow-duration="2s" data-wow-delay=".1s">
                 <h1>Объединяя комфорт и инновации</h1>
                 <h3>С диванами от Ricco Вы сможете не просто моделировать дизайн своего интерье­ра, но и достигнуть наивысшего уровня личного комфорта.</h3>
             </div>
 
-            <section class="tabs-container">
+            <section class="tabs-container wow fadeIn" data-wow-duration="2s" data-wow-delay=".4s">
                 <ul class="tabs">
                     <li class="tab-link current" data-tab="tab-1">
                         <img src="icons/tabs/tab_leather.svg" alt="Вкладка кожанных диванов">
@@ -172,7 +176,7 @@
                 </div>
             </section>
 
-            <form action="plugins/forms/contact-form.php" class="contact-form">
+            <form action="plugins/forms/contact-form.php" class="contact-form wow fadeIn" data-wow-duration="2s" data-wow-delay=".1s">
                 <div class="content-wrapper">
                     <h4>Остались вопросы?</h4>
                     <h5>Свяжитесь с нами!</h5>
@@ -239,6 +243,10 @@
         </main>
     </div>
 
+    <script src="plugins/animate/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     <script src="plugins/responsive-nav/responsive-nav.js"></script>
     <script src="plugins/tabs/tabs.js"></script>
     <script src="plugins/smooth-scrolling/smooth-scrolling.js"></script>

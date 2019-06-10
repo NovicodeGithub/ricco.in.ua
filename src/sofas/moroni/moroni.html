@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Moroni - Ricco</title>
+    <title>Диван Moroni - Ricco</title>
+	<meta name="description" content="Итальянская мебель. Купить  итальянскую качественную мебель в Ricco">
+    <meta name="keywords" content="мебель, диваны, Италия, диван, итальянская, диван, качество, комфорт, Киев, Украина">
 
     <link rel="icon" href="../../mages/icons/favicon.png" type="image/png" />
     <link rel="icon" href="../../images/icons/favicon.ico" type="image/x-icon" />
 
     <link rel="stylesheet" href="../../typography/typorgaphy.css">
     <link rel="stylesheet" href="../../assets/pages/sofa-template.css">
+    <link rel="stylesheet" href="../../plugins/animate/animate.css">
+
     <script
         src="https://code.jquery.com/jquery-2.2.4.min.js"
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
@@ -50,7 +54,7 @@
 
         <main class="content">
             <article class="promo-block">
-                <div class="header-wrapper">
+                <div class="header-wrapper wow fadeIn" data-wow-duration="2s" data-wow-delay=".4s">
                     <a href="../../sofas.html" class="link-to-previous-page">Коллекция</a>
                     <h1>Moroni</h1>
                     <h4>by Natuzzi Editions</h4>
@@ -58,10 +62,10 @@
                     <button class="primary-button">Получить детали</button>
                 </div>
 
-                <img src="main.jpg" class="product-promo-image" width="500" height="auto" alt="Главное фото дивана Moroni">
+                <img src="main.jpg" class="product-promo-image wow fadeIn" data-wow-duration="2s" data-wow-delay=".1s" width="500" height="auto" alt="Главное фото дивана Moroni">
             </article>
 
-            <section class="product-features">
+            <section class="product-features wow fadeIn" data-wow-duration="2s" data-wow-delay=".1s">
                 <ul class="features-list">
                     <li class="feature color-feature">
                         <img src="../../icons/sofa-features/icon_feature-colors.svg" alt="Несколько цветов дивана">
@@ -97,7 +101,7 @@
                 </ul>
             </section>
 
-            <section class="product-colors">
+            <section class="product-colors wow fadeIn" data-wow-duration="2s" data-wow-delay=".1s">
                 <div class="header-wrapper">
                     <img src="../../icons/sofa-features/icon_feature-colors.svg" alt="Цветовые вариатны дивана">
                     <h2>Цвета</h2>
@@ -107,7 +111,7 @@
                 <img src="color_2.jpg" width="360" height="auto" alt="Голубой вариант дивана">
             </section>
 
-            <section class="product-functionality">
+            <section class="product-functionality wow fadeIn" data-wow-duration="2s" data-wow-delay=".1s">
                 <div class="header-wrapper">
                     <img src="../../icons/sofa-features/icon_feature-unfolding.svg" alt="Цветовые вариатны дивана">
                     <h2>Функционал</h2>
@@ -123,7 +127,7 @@
                 </section>
             </section>
 
-            <section class="product-size">
+            <section class="product-size wow fadeIn" data-wow-duration="2s" data-wow-delay=".1s">
                 <h2>Размеры</h2>
                 <a href="design-specs.pdf" download="sofa-design-specs" class="specs-download" target="_blank">
                     <img src="../../icons/download-icon.svg" alt="Скачать файл с характеристиками дивана">
@@ -134,7 +138,7 @@
                 <img src="size.jpg" class="size-scheme" width="800" height="auto" alt="Рамзеры дивана">
             </section>
 
-            <section class="product-delievery">
+            <section class="product-delievery wow fadeIn" data-wow-duration="1.2s" data-wow-delay=".1s">
                 <div class="header-wrapper">
                     <img src="../../icons/sofa-features/icon_delivery.svg" alt="Доставка дивана">
                     <h2>Доставка</h2>
@@ -153,8 +157,6 @@
                                 Для более детальной информации обращайтесь к менеджеру.<br>+38(067)48-19-404
                             </span>
                         </span>
-
-                        <button class="primary-button">Узнать детали</button>
                     </section>
 
                     <section class="delievery-kiev">
@@ -166,8 +168,6 @@
                             <img src="../../icons/delievery-cards/icon_additional-services.svg" alt="Обращение к менеджеру">
                             <span class="additional-information-description">Занос в квартиру - <b>600</b></span>
                         </span>
-
-                        <button class="primary-button">Узнать детали</button>
 
                         <span role="note" class="estimated-delivery-time">
                             Доставка будет произведена в течение 1 рабочего дня.
@@ -184,8 +184,6 @@
                             <span class="additional-information-description">Занос в квартиру - <b>600</b></span>
                         </span>
 
-                        <button class="primary-button">Узнать детали</button>
-
                         <span role="note" class="estimated-delivery-time">
                             Доставка будет произведена в течение 2 рабочих дней.
                         </span>
@@ -193,7 +191,7 @@
                 </div>
             </section>
 
-            <form action="../../plugins/forms/order-form.php" class="order-form">
+            <form action="../../plugins/forms/order-form.php" class="order-form wow fadeIn" data-wow-duration="1.2s" data-wow-delay=".1s">
                 <div class="content-wrapper">
                     <h4>Узнать детали</h4>
                     <h5>Наш менеджер свяжется с Вами в ближайшее время.</h5>
@@ -307,6 +305,10 @@
         </main>
     </div>
 
+    <script src="../../plugins/animate/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     <script src="../../plugins/responsive-nav/responsive-nav.js"></script>
     <script src="../../plugins/tabs/tabs.js"></script>
     <script src="../../plugins/smooth-scrolling/smooth-scrolling.js"></script>

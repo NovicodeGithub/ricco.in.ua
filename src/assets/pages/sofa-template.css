@@ -298,11 +298,10 @@ h4 {
     vertical-align: top;
     position: relative;
     margin: 0 20px;
-    padding: 60px 50px 0;
+    padding: 60px 50px 60px;
     box-sizing: border-box;
     border-radius: 10px;
     width: 300px;
-    height: 600px;
     background-color: #fff;
     color: #1D1D1D;
 }
@@ -357,15 +356,6 @@ h4 {
 
 .delievery-cards-row .pickup .additional-information-description::after {
     content: none;
-}
-
-.delievery-cards-row .primary-button {
-    display: block;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0);
-    bottom: 40px;
-    width: 180px;
 }
 
 .delievery-cards-row .estimated-delivery-time {
@@ -703,10 +693,6 @@ h4 {
 
     .delievery-cards-row .additional-information-description {
         max-width: calc(100% - 40px);
-    }
-
-    .delievery-cards-row .primary-button {
-        display: none;
     }
 
     .delievery-cards-row .number-of-product {

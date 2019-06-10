@@ -6,12 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>Главная - Ricco</title>
+	<meta name="description" content="Итальянская мебель. Купить  итальянскую качественную мебель в Ricco">
+    <meta name="keywords" content="мебель, диваны, Италия, диван, итальянская, диван, качество, комфорт, Киев, Украина">
 
     <link rel="icon" href="images/icons/favicon.png" type="image/png" />
     <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon" />
 
     <link rel="stylesheet" href="typography/typorgaphy.css">
     <link rel="stylesheet" href="assets/pages/index.css">
+    <link rel="stylesheet" href="plugins/animate/animate.css">
+
     <script
         src="https://code.jquery.com/jquery-2.2.4.min.js"
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
@@ -53,7 +57,7 @@
         </aside>
 
         <main class="content">
-            <div class="header-block">
+            <div class="header-block wow fadeIn" data-wow-duration="2s" data-wow-delay=".1s">
                 <h1 class="content-wrapper">Качественная итальянская мебель</h1>
                 <h3 class="content-wrapper">С диванами от Ricco Вы сможете не просто моделировать дизайн своего интерье­ра, но и достигнуть наивысшего уровня личного комфорта.</h3>
 
@@ -72,7 +76,7 @@
                 </span>
 
                 <ul class="features-list">
-                    <li class="feature-item">
+                    <li class="feature-item wow fadeIn" data-wow-duration="2s">
                         <article>
                             <img src="icons/our-features/icon_best-quality.svg" alt="Лучшее качество">
                             <h4>Лучшее качество</h4>
@@ -82,7 +86,7 @@
                         </article>
                     </li>
 
-                    <li class="feature-item">
+                    <li class="feature-item wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
                         <article>
                             <img src="icons/our-features/icon_help-with-buying.svg" alt="Помощь в покупке">
                             <h4>Помощь при покупке</h4>
@@ -92,7 +96,7 @@
                         </article>
                     </li>
 
-                    <li class="feature-item">
+                    <li class="feature-item wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
                         <article>
                             <img src="icons/our-features/icon_delivery.svg" alt="Доставка">
                             <h4>Доставка по Украине</h4>
@@ -104,7 +108,7 @@
                 </ul>
             </section>
 
-            <section class="resting-place content-wrapper">
+            <section class="resting-place content-wrapper wow fadeIn" data-wow-duration="2s" data-wow-delay=".1s">
                 <div class="header-wrapper">
                     <h2>Каждая комната вашего дома может стать местом для отдыха.</h2>
                     <a href="#" class="primary-link">Смотреть все диваны
@@ -124,7 +128,7 @@
             </section>
 
             <section class="best-sofas content-wrapper">
-                <article class="header-wrapper">
+                <article class="header-wrapper wow fadeIn" data-wow-duration="2s" data-wow-delay=".1s">
                     <h2>Мастерство в каждой детали.</h2>
                     <p>Ricco предлагает бога­тейший выбор мебели итальянского дизайна, полностью отвечающей вашим потребностям и понятиям о стиле. Современные и привлекательные диваны, кресла и диван­кровати доступны в бесконечном множестве модных цве­товых решений и их комбинаций*.</p>
 
@@ -139,7 +143,7 @@
                     </a>
                 </article>
 
-                <div class="swiper-container">
+                <div class="swiper-container wow fadeIn" data-wow-duration="2s" data-wow-delay=".4s">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <a class="product-card">
@@ -281,6 +285,10 @@
         </main>
     </div>
 
+    <script src="plugins/animate/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     <script src="plugins/responsive-nav/responsive-nav.js"></script>
     <script src="plugins/slider/slider.min.js"></script>
     <script src="plugins/slider/slider.js"></script>
