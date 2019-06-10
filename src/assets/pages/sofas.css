@@ -5,6 +5,7 @@
 @import url(../components/card.css);
 @import url(../components/page-footer.css);
 @import url(../components/form.css);
+@import url(../components/contact-form.css);
 @import url(../components/tabs.css);
 
 body {
@@ -69,44 +70,7 @@ h3 {
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 20px 40px rgba(0, 0, 0, 0.05);
 }
 
-.contact-form {
-    color: #fff;
-    text-align: center;
-    box-sizing: border-box;
-    margin-bottom: 100px;
-    padding-top: 100px;
-}
-
-.contact-form h4 {
-    margin-bottom: 8px;
-}
-
-.contact-form h5 {
-    color: #999999;
-    margin-bottom: 28px;
-}
-
-.contact-form .input-field {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-}
-
-.submit-button {
-    background-image: url(../../icons/icon_button-arrow.svg);
-    background-position: calc(100% - 20px) 50%;
-    background-repeat: no-repeat;
-    padding-right: 48px;
-}
-
-
 @media (max-device-width: 1024px) {
-    .tab-content {
-        padding-left: 32px;
-        padding-right: 32px;
-    }
-
     .header-wrapper {
         margin-left: 0;
     }
@@ -139,10 +103,6 @@ h3 {
     .mainmenu .menu-item {
         line-height: 2em;
     }
-
-    .tabs .tab-link {
-        margin: 0;
-    }
 }
 
 @media (max-device-width: 518px) {
@@ -164,31 +124,6 @@ h3 {
     .product-card:hover {
         transform: translateY(8px);
     }
-
-    .contact-form {
-        width: 100%;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
-
-    .contact-form h4 {
-        font-size: 1.125em;
-    }
-
-    .contact-form h5 {
-        font-size: 0.875em;
-    }
-
-    .contact-form .input-field {
-        width: 100%;
-    }
-
-    .contact-form .submit-button {
-        width: 100%;
-        background-image: none;
-        font-size: 20px;
-        padding-right: 20px;
-    }
 }
 
 @media (max-device-width: 480px) {
@@ -206,9 +141,10 @@ h3 {
         margin-left: auto;
         margin-right: auto;
     }
-
-    .tabs .tab-link img {
-        width: 72px;
+    
+    .content .header-block {
+        padding-left: 32px;
+        padding-right: 32px;
     }
 }
 
@@ -223,11 +159,6 @@ h3 {
 }
 
 @media (max-device-width: 390px) {
-    .tab-content {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
     .products-list .product-card {
         width: 100%;
     }

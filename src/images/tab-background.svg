@@ -4,12 +4,12 @@
     <title>Group 2</title>
     <desc>Created with Sketch.</desc>
     <g id="prototype" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" transform="translate(-4.000000, -509.000000)">
-            <g id="Group-2" transform="translate(4.000000, 509.000000)">
-                <g id="Group" fill="#1D1D1D">
+        <g transform="translate(-4.000000, -509.000000)">
+            <g transform="translate(4.000000, 509.000000)">
+                <g id="svg_curve-background" fill="#1D1D1D">
                     <path d="M724.323134,66 L0,66 L0,0 L1448,0 L1448,66 L724.323134,66 L1447.87091,66 C1256.54625,24.9842438 1002.75862,0 724.323134,0 C445.887646,0 192.100016,24.9842438 0.77535557,66 L724.323134,66 Z" id="Combined-Shape"></path>
                 </g>
-                <path d="M1448.09556,66 L1,66 C192.324661,24.9842438 446.112291,0 724.547779,0 C1002.98327,0 1256.7709,24.9842438 1448.09556,66 Z" id="bg-copy" fill="#FFFFFF"></path>
+                <path d="M1448.09556,66 L1,66 C192.324661,24.9842438 446.112291,0 724.547779,0 C1002.98327,0 1256.7709,24.9842438 1448.09556,66 Z" fill="#FFFFFF" id="svg_curve-fill"></path>
             </g>
         </g>
     </g>

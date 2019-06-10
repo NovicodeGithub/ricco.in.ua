@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="24px" viewBox="0 0 45 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>arrow-down</title>
+    <desc>Created with Sketch.</desc>
+    <g id="prototype" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.404250372" stroke-linecap="round" stroke-linejoin="round">
+        <g id="MORONI" transform="translate(-1046.000000, -2369.000000)" stroke="#454545" stroke-width="2">
+            <g id="Group-16" transform="translate(0.000000, 1882.000000)">
+                <g id="row" transform="translate(818.000000, 101.000000)">
+                    <g id="arrow-down" transform="translate(249.920310, 387.920310) rotate(45.000000) translate(-249.920310, -387.920310) translate(234.420310, 372.420310)">
+                        <path d="M0.833017648,29.7150757 L30.0123385,29.7150757" id="Line-6"></path>
+                        <path d="M15.1717553,14.8744926 L44.8529216,14.8744926" id="Line-6" transform="translate(30.012338, 14.874493) rotate(90.000000) translate(-30.012338, -14.874493) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

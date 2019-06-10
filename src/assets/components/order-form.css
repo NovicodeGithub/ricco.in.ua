@@ -1,0 +1,53 @@
+.order-form {
+    background-color: #1D1D1D;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+    box-sizing: border-box;
+}
+
+.order-form .content-wrapper {
+    display: inline-block;
+    width: auto;
+    padding: 48px 44px;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.order-form h4 {
+    text-align: center;
+    display: block;
+    margin: 0 auto 16px;
+    font-size: 1.333em;
+}
+
+.order-form h5 {
+    text-align: center;
+    display: block;
+    margin: 0 auto 40px;
+    line-height: 1.333em;
+    color: #808080;
+    max-width: 220px;
+}
+
+.order-form .input-field {
+    display: block;
+    text-align: left;
+    font-weight: 400;
+    color: #1D1D1D;
+}
+
+.order-form .input-field b {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.order-form input {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.order-form .primary-button {
+    margin-top: 40px;
+}

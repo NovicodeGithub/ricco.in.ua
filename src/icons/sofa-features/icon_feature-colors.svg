@@ -1,31 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="176px" height="174px" viewBox="0 0 176 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="126px" height="126px" viewBox="0 0 126 126" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
     <title>icon</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <path d="M48,96 C95.629668,96 96,74.509668 96,48 C96,21.490332 95.629668,0 48,0 C0.370332011,0 0,21.490332 0,48 C0,74.509668 0.370332011,96 48,96 Z" id="path-1"></path>
-        <filter x="-72.9%" y="-52.1%" width="245.8%" height="245.8%" filterUnits="objectBoundingBox" id="filter-2">
-            <feOffset dx="0" dy="20" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="20" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
-            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
-            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.198535839 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
-            </feMerge>
+        <filter x="-24.0%" y="-24.0%" width="147.9%" height="147.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
     </defs>
     <g id="prototype" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="MORONI" transform="translate(-125.000000, -731.000000)">
+        <g id="MORONI" transform="translate(-150.000000, -735.000000)">
             <g id="section-features" transform="translate(0.000000, 691.000000)">
                 <g id="menu-item" transform="translate(60.000000, 59.000000)">
                     <g id="icon" transform="translate(105.000000, 0.000000)">
                         <g id="Path">
                             <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <use stroke-opacity="0.291165865" stroke="#999999" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
                         </g>
                         <g id="circles" transform="translate(19.500000, 20.000000)">
                             <circle id="Oval" fill="#FF7871" opacity="0.817359561" cx="17.192569" cy="38.1591165" r="17.192569"></circle>

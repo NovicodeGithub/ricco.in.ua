@@ -1,13 +1,17 @@
 .page-footer {
     display: block;
-    width: calc(100% - 248px); /* 100% - margin-left - margin-right */
-    margin: 0 auto;
     font-size: 0.667em;
-    border-top: 1px solid #666666;
-    padding: 28px 0 12px;
     color: #CCCCCC;
     height: auto;
     overflow: auto;
+}
+
+.page-footer .content-wrapper {
+    display: block;
+    margin: 0 auto;
+    padding: 28px 0 12px;
+    border-top: 1px solid #666666;
+    width: calc(100% - 248px); /* 100% - margin-left - margin-right */
 }
 
 .page-footer .logo {
@@ -22,11 +26,6 @@
     text-align: right;
     margin-bottom: 80px;
 }
-
-/* .footer-info a {
-    padding: 0.8em 0;
-    margin: -0.8em 0;
-} */
 
 .footer-info > div {
     text-align: left;
@@ -98,14 +97,17 @@
 }
 
 @media (max-device-width: 1224px) {
-    .page-footer {
-        width: 90%;
+    .page-footer .content-wrapper {
+        box-sizing: border-box;
+        padding-left: 32px;
+        padding-right: 32px;
+        width: 100%;
     }
 }
 
 /* Responsive Mobile Sizes */
 @media only screen and (max-width: 766px) {
-    .page-footer {
+    .page-footer .content-wrapper {
         border-top: 0;
     }
 
@@ -173,5 +175,11 @@
 
     .footer-links-holder.active .links-list {
         max-height: initial;
+    }
+
+    .page-footer .content-wrapper {
+        box-sizing: border-box;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }

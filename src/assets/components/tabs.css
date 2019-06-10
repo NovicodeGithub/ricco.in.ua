@@ -87,3 +87,32 @@
 .tabs .tab-name {
     display: block;
 }
+
+
+@media (max-device-width: 480px) {
+    .tabs-container .tab-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .products-list .product-card {
+        width: 100%;
+    }
+
+    .product-card .product-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tabs .tab-link {
+        margin: 0;
+    }
+
+    .tabs .tab-link img {
+        width: 72px;
+    }
+}
+
+@media (max-device-width: 390px) {
+}
