@@ -15,7 +15,7 @@ body {
 
 .promo-block {
     display: block;
-    width: 70%;
+    width: 74%;
     max-width: 1000px;
     margin: 0 auto;
     padding: 100px 0 140px;
@@ -64,7 +64,7 @@ h4 {
 }
 
 .promo-block .product-price {
-    display: inline-block;
+    display: block;
     font-size: 1.333em;
     font-weight: 400;
     margin-bottom: 48px;
@@ -81,14 +81,10 @@ h4 {
     margin-left: 2px;
 }
 
-.promo-block .primary-button {
-    display: block;
-}
-
 .promo-block .product-promo-image {
     display: block;
     float: right;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .product-features {
@@ -196,14 +192,28 @@ h4 {
     font-weight: 400;
     line-height: 1.5em;
     max-width: 520px;
+    margin-bottom: 40px;
+}
+
+.product-functionality > section + section {
+    border-top: 32px solid #F2F2F2;
+}
+
+.functionality-photos {
+    max-width: 100%;
+}
+
+.functionality-photos > .slide {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
 }
 
 .functionality-storyboard {
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 5%;
+    display: block;
+    box-sizing: border-box;
     border-radius: 20px;
-    padding: 60px 40px;
+    padding: 60px 0;
     background-color: #fff;
 }
 
@@ -223,6 +233,7 @@ h4 {
 }
 
 .product-size > img {
+    max-width: 100%;
     display: block;
     margin: 0 auto 80px;
 }
@@ -297,11 +308,12 @@ h4 {
     display: inline-block;
     vertical-align: top;
     position: relative;
-    margin: 0 20px;
+    margin: 0 20px 40px;
     padding: 60px 50px 60px;
     box-sizing: border-box;
     border-radius: 10px;
     width: 300px;
+    height: 540px;
     background-color: #fff;
     color: #1D1D1D;
 }
@@ -327,7 +339,7 @@ h4 {
 .delievery-cards-row .additional-information {
     display: block;
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 32px;
 }
 
 .delievery-cards-row .additional-information img {
@@ -423,10 +435,6 @@ h4 {
         max-width: 360px;
     }
 
-    .functionality-storyboard {
-        padding: 40px 20px;
-    }
-
     .delievery-cards-row > section {
         margin-bottom: 40px;
     }
@@ -486,17 +494,6 @@ h4 {
         text-align: left;
     }
 
-    .functionality-storyboard {
-        margin-left: 0;
-        box-sizing: border-box;
-        padding: 40px 40px;
-    }
-
-    .functionality-storyboard .slide {
-        width: 360px;
-        display: inline-block;
-    }
-
     .product-size .size-scheme {
         width: 100%;
     }
@@ -536,11 +533,6 @@ h4 {
 
     .product-promo-image {
         width: 100%;
-    }
-
-    .functionality-storyboard {
-        display: inline-block;
-        width: 400px;
     }
 
     .functionality-storyboard .slide {
@@ -749,6 +741,15 @@ h4 {
         background-image: none;
         font-size: 20px;
         padding-right: 20px;
+    }
+
+    .product-size, .product-features, .product-functionality, .product-colors {
+        border-bottom: 12px solid #F2F2F2;
+    }
+
+    .order-form {
+        border-bottom: 12px solid #F2F2F2;
+        border-top: 12px solid #F2F2F2;
     }
 }
 

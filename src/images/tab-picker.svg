@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="140px" height="53px" viewBox="0 0 140 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="134px" height="39px" viewBox="0 0 134 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
-    <title>Path 6</title>
+    <title>Combined Shape</title>
     <desc>Created with Sketch.</desc>
     <g id="prototype" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M0.352073465,52.6426205 C21.8980363,48.3044872 37.7309455,42.608031 47.8508009,35.5532517 C57.9706563,28.4984725 65.5165993,16.7204898 70.4886298,0.219303623 C74.4526669,16.7880678 83.1584794,29.0526769 96.6060674,37.0131309 C110.053655,44.9735849 124.536152,50.1834147 140.053558,52.6426205 L70.4886298,52.6426205 L0.352073465,52.6426205 Z" id="Path-6" fill="#FFFFFF"></path>
+        <g id="collection-tissue" transform="translate(-556.000000, -628.000000)" fill="#FFFFFF">
+            <g id="Group-3" transform="translate(276.000000, 628.000000)">
+                <path d="M347.162006,1.11277654e-12 C349.524302,21.7958267 377.426709,39 411.5,39 C412.337154,39 413.170583,38.9896148 414,38.9690313 L414,39 L280,39 L280,38.9690313 C280.829417,38.9896148 281.662846,39 282.5,39 C316.573291,39 344.475698,21.7958267 346.837994,1.11144427e-12 L347.162006,0 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
     </g>
 </svg>

@@ -1,11 +1,31 @@
 .primary-button {
+    vertical-align: baseline;
+    font-size: 18px;
+    font-weight: 400;
+    height: 2.222em;
+    line-height: 1.222em; /* 22px */
+    padding: 9px 20px;
+    display: inline-block;
+    color: #fff;
+    font-family: inherit;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: #FF9B42;
+    border: none;
+    box-shadow: none;
+    cursor: default;
+    margin: 0;
     background-image: url(../../icons/icon_button-arrow.svg);
     background-position: calc(100% - 20px) 50%;
     background-repeat: no-repeat;
     padding-right: 48px;
 }
 
-button:hover {
+.primary-button:active {
+    transform: translateY(1px);
+}
+
+.primary-button:hover {
     transform: translateY(-1px);
     background-color: #ffad66;
     box-shadow: 0 1px 5px 0 rgba(0,0,0,0.05);

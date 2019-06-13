@@ -9,8 +9,8 @@
 	<meta name="description" content="Итальянская мебель. Купить  итальянскую качественную мебель в Ricco">
     <meta name="keywords" content="мебель, диваны, Италия, диван, итальянская, диван, качество, комфорт, Киев, Украина">
 
-    <link rel="icon" href="../../mages/icons/favicon.png" type="image/png" />
-    <link rel="icon" href="../../images/icons/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="../../icons/favicon.png" type="image/png" />
+    <link rel="icon" href="../../icons/favicon.ico" type="image/x-icon" />
 
     <link rel="stylesheet" href="../../typography/typorgaphy.css">
     <link rel="stylesheet" href="../../assets/pages/sofa-template.css">
@@ -57,9 +57,9 @@
                 <div class="header-wrapper wow fadeIn" data-wow-duration="2s" data-wow-delay=".4s">
                     <a href="../../sofas.html" class="link-to-previous-page">Коллекция</a>
                     <h1>Moroni</h1>
-                    <h4>by Natuzzi Editions</h4>
+                    <h4>by CuboRosso</h4>
                     <span class="product-price">40 000</span>
-                    <button class="primary-button">Получить детали</button>
+                    <a class="primary-button" href="#anchor-order-form">Получить детали</a>
                 </div>
 
                 <img src="main.jpg" class="product-promo-image wow fadeIn" data-wow-duration="2s" data-wow-delay=".1s" width="500" height="auto" alt="Главное фото дивана Moroni">
@@ -129,7 +129,7 @@
 
             <section class="product-size wow fadeIn" data-wow-duration="2s" data-wow-delay=".1s">
                 <h2>Размеры</h2>
-                <a href="design-specs.pdf" download="sofa-design-specs" class="specs-download" target="_blank">
+                <a href="specs.pdf" download="sofa-design-specs" class="specs-download" target="_blank">
                     <img src="../../icons/download-icon.svg" alt="Скачать файл с характеристиками дивана">
                     <span class="specs-download-description">
                         Скачать технические характеристики
@@ -191,22 +191,24 @@
                 </div>
             </section>
 
-            <form action="../../plugins/forms/order-form.php" class="order-form wow fadeIn" data-wow-duration="1.2s" data-wow-delay=".1s">
-                <div class="content-wrapper">
+            <form action="../../plugins/forms/order-form.php" class="order-form">
+                <div class="content-wrapper" id="anchor-order-form">
                     <h4>Узнать детали</h4>
                     <h5>Наш менеджер свяжется с Вами в ближайшее время.</h5>
 
                     <label class="required input-field">
                         Номер телефона:
-                        <input type="tel" placeholder="096 866 73 32" name="telephone-number" minlength="5" required>
+                        <input type="tel" placeholder="0968667332" name="telephone-number" pattern="[0-9]{5,12}" required>
                     </label>
 
                     <label class="input-field">
                         Диван: <b>Moroni</b>
+                        <input type="text" value="Moroni" name="product-name" hidden>
                     </label>
 
                     <label class="input-field">
                         Материал: <b>кожа</b>
+                        <input type="text" value="кожа" name="product-material" hidden>
                     </label>
 
                     <fieldset>
@@ -244,7 +246,7 @@
                     <h5>Свяжитесь с нами!</h5>
                     <label class="required input-field">
                         Номер телефона:
-                        <input type="tel" placeholder="096 866 73 32" name="telephone-number" minlength="5" required>
+                        <input type="tel" placeholder="0968667332" name="telephone-number" pattern="[0-9]{5,12}" required>
                     </label>
 
                     <label class="input-field">

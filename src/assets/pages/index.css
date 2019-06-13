@@ -438,3 +438,24 @@ h1 {
         margin-right: 0px;
     }
 }
+
+@media (max-device-width: 340px) {
+    .best-sofas {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .best-sofas .primary-link {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .best-sofas h2 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .best-sofas .swiper-container .swiper-slide {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+}

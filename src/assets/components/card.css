@@ -32,19 +32,21 @@
 
 .product-card .product-image {
     margin-top: 60px;
+    left: 80%;
+    position: absolute;
+    top: 34%;
+    transform: translate(-50%, -50%);
 }
 
-.product-card .product-name a {
+.product-card .product-name {
     display: block;
     margin: 0 auto;
     color: #1b1b1b;
     max-width: 80%;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 0.750em;
-    line-height: 1.2em;
-    letter-spacing: 1px;
-    text-align: center;
+    position: absolute;
+    bottom: 40px;
+    right: 0;
+    left: 0;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -93,3 +95,4 @@
 .product-card:hover::before {
     opacity: 1;
 }
+
