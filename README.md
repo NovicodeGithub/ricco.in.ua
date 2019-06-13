@@ -1,5 +1,11 @@
 # Ricco gallery store
 
+### Installation
+
+```
+npm install
+```
+
 ### Intialization
 
 ```
