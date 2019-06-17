@@ -2,17 +2,17 @@
     $phone = $_POST['telephone-number'];
     $model = $_POST['product-name'];
     $material = $_POST['product-material'];
-    $color = $_POST['color'];
+    $color = $_POST['product-color'];
 
 
     $token = "618080383:AAFEAEwfVs9iq3NuefXJPCAOjUl6EXIKimo";
     $chat_id = "-313691712";
 
     $arr = array(
-        'Телефон: ' => $phone,
+        'Телефон:' => $phone,
         'Модель:' => $model,
-        'Материал дивана: ' => $material,
-        'Цвет: ' => $color
+        'Материал дивана:' => $material,
+        'Цвет:' => $color
     );
 
     foreach($arr as $key => $value) {
@@ -26,4 +26,6 @@
     } else {
         echo "Error";
     }
+
+    return true;
 ?>

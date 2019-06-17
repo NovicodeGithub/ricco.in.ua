@@ -448,7 +448,8 @@ h4 {
     }
 
     .promo-block {
-        width: 80%;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .promo-block .header-wrapper {
@@ -477,7 +478,7 @@ h4 {
 
     .link-to-previous-page {
         position: absolute;
-        left: 0;
+        left: 20px;
         top: 80px;
     }
 

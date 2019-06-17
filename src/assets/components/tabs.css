@@ -18,6 +18,17 @@ input[type="radio"] {
     margin: 0 auto;
 }
 
+.tabs .label:nth-child(n) {
+    margin-right: auto;
+    margin-left: 2%;
+}
+
+.tabs .label:nth-child(2n) {
+    margin-left: auto;
+    margin-right: 2%;
+}
+
+
 .tabs .label::after {
     content: '';
     display: block;

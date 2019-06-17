@@ -1,11 +1,12 @@
 <?php
     $phone = $_POST['telephone-number'];
     $comment = $_POST['message'];
+
     $token = "618080383:AAFEAEwfVs9iq3NuefXJPCAOjUl6EXIKimo";
     $chat_id = "-313691712";
 
     $arr = array(
-        'Телефон: ' => $phone,
+        'Телефон:' => $phone,
         'Комментарий:' => $comment
     );
 
@@ -14,10 +15,4 @@
     };
 
     $sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}","r");
-
-    if ($sendToTelegram) {
-        header('Location: ../../index.html');
-    } else {
-        echo "Error";
-    }
 ?>
